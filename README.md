@@ -1,5 +1,3 @@
-# LinearAllocPreDex
-Count Android APK dex LinearAlloc usage
 ## 使用说明
 ### 1，创建DexClassLoader
     DexClassLoader classLoader = new DexClassLoader("目标apk路径", getApplicationInfo().dataDir, null,this.getClass().getClassLoader());
